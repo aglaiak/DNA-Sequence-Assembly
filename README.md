@@ -3,14 +3,14 @@ Python script that generates the original DNA sequence with the use of De Bruijn
 
 ## Contents
 
-1. [Introduction](##introduction)
-2. [De Bruijn graphs](##de-bruijn-graphs)
-3. [Euler Paths](##euler-paths)
-4. [Script Implementation](##script-implementation)
-5. [Test Cases](##test-cases)
-6. [How to Use](##how-to-use)
-7. [References](##references)
-8. [License](##license)
+1. [Introduction](#1-introduction)
+2. [De Bruijn graphs](#2-de-bruijn-graphs)
+3. [Euler Paths](#3-euler-paths)
+4. [Script Implementation](#4-script-implementation)
+5. [Test Cases](#5-test-cases)
+6. [How to Use](#6-how-to-use)
+7. [References](#7-references)
+8. [License](#8-license)
 
 ## 1. Introduction
 A nucleotide is the basic building block of DNA sequences. The four nucleobases that can appear
@@ -62,7 +62,7 @@ An example de Bruijn graph construction is shown below.
 
 *Source: Pevsner, J. (2015). Bioinformatics and Functional Genomics (3rd ed.). John Wiley & Sons. *
 
-## 3.Euler Paths
+## 3. Euler Paths
 
 An Euler Path is a route through a connected graph such that each edge of the graph is used exactly once. This graphical property is important in reconstructing sequences from a de Bruijn Graph. The goal is to find a path that traverses every "edge" (k-mer) of the graph exactly once and then reconstruct the original, long DNA sequence. 
 
@@ -72,7 +72,7 @@ An Euler Path is a route through a connected graph such that each edge of the gr
 
 Image source: https://dragoncurvetutoring.org/graphtheory.html
 
-## 4.Script Implementation
+## 4. Script Implementation
 
 ### 2.1 Function `read_csv(name)`
 
