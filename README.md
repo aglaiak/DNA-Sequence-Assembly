@@ -3,14 +3,14 @@ Python script that generates the original DNA sequence with the use of De Bruijn
 
 ## Contents
 
-1. [Introduction](introduction)
-2. [De Bruijn graphs](de-bruijn-graphs)
-3. [Euler Paths](euler-paths)
-4. [Script Implementation](script-implementation)
-5. [Test Cases](test-cases)
-6. [How to Use](how-to-use)
-7. [References](references)
-8. [License](license)
+1. [Introduction](#introduction)
+2. [De Bruijn graphs](#de-bruijn-graphs)
+3. [Euler Paths](#euler-paths)
+4. [Script Implementation](#script-implementation)
+5. [Test Cases](#test-cases)
+6. [How to Use](#how-to-use)
+7. [References](#references)
+8. [License](#license)
 
 ## 1. Introduction
 A nucleotide is the basic building block of DNA sequences. The four nucleobases that can appear
