@@ -83,6 +83,11 @@ each line separately. After collecting all the rows, object could get converted
 to a pandas DataFrame. I find my approach much better as it doesn’t need an
 extended amount of lines as its alternative in order to perform the same task.
 
+The provided .csv file must have the following format in order to be parsed properly:
+<p align="center">
+<img width="320" height="125" alt="image" src="https://github.com/user-attachments/assets/3c665bff-ee87-43ed-84f2-39eea1aa8299" />
+</p>
+
 ### 2.2 Function `clean_data(df)`
 
 The `clean_data()` function first makes a copy of the input DataFrame, then
@@ -122,7 +127,7 @@ harder to read, so I chose recursion instead.
 That function inputs a graph object and plots a graph with the help of networkx
 package. After initializing the layout (shell), the function draws the nodes,
 labels, and edges. When the function is called through command line, it saves
-the figure under the prespecified filename as a PNG file.
+the figure under the prespecified filename as a .PNG file.
 
 ### 2.6 Function `is_valid_graph(graph)`
 
